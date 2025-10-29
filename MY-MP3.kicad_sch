@@ -2021,245 +2021,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_MountingPin"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_MountingPin_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -7.112) (xy 1.016 -7.112)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -6.731 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -13921,15 +13682,13 @@
 		(color 0 0 0 0)
 		(uuid "fd2a1e3d-58c2-4c0b-9af5-5ade1d8c14d2")
 	)
-	(junction
-		(at 269.24 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd48bc5a-0e36-4a76-9b92-7e279c81848f")
+	(no_connect
+		(at 52.07 175.26)
+		(uuid "02c8801f-e1fe-4f87-95df-89159f05e446")
 	)
 	(no_connect
-		(at 52.07 177.8)
-		(uuid "06b61192-3689-440b-ad6b-7927def79145")
+		(at 97.79 129.54)
+		(uuid "0536a401-d712-426f-9126-bd20ade8f57a")
 	)
 	(no_connect
 		(at 76.2 58.42)
@@ -13940,16 +13699,8 @@
 		(uuid "0aa140dd-796c-4480-8cb3-b42d5b39bfe9")
 	)
 	(no_connect
-		(at 97.79 223.52)
-		(uuid "0aa55966-e03c-419f-bc01-e51f398e98be")
-	)
-	(no_connect
 		(at 97.79 177.8)
 		(uuid "0c07b915-cd06-449c-a6dd-b46626a74714")
-	)
-	(no_connect
-		(at 52.07 170.18)
-		(uuid "123f174c-b1d3-4c2f-997a-483143e61439")
 	)
 	(no_connect
 		(at 97.79 124.46)
@@ -13964,20 +13715,8 @@
 		(uuid "18406900-a153-4cd3-b294-e916d00459dd")
 	)
 	(no_connect
-		(at 97.79 241.3)
-		(uuid "191fbb56-73da-45fd-abed-1e98bb89d0e7")
-	)
-	(no_connect
-		(at 52.07 157.48)
-		(uuid "1e2b5a7f-32f7-4352-94f4-15c852e9104f")
-	)
-	(no_connect
-		(at 52.07 154.94)
-		(uuid "27cf2fdb-c591-42ca-b843-b7c365f192eb")
-	)
-	(no_connect
-		(at 97.79 246.38)
-		(uuid "2af2b255-7037-4794-9452-b0e417c37e08")
+		(at 52.07 182.88)
+		(uuid "31f546fb-b9a2-4f59-bec0-aa66c02dc86c")
 	)
 	(no_connect
 		(at 106.68 83.82)
@@ -13988,16 +13727,8 @@
 		(uuid "43269fb8-4d8c-4081-b05a-a2d9745a543e")
 	)
 	(no_connect
-		(at 97.79 220.98)
-		(uuid "446f59ae-8b2c-4045-8efc-d0942a9d504e")
-	)
-	(no_connect
 		(at 76.2 60.96)
 		(uuid "45b5b873-11ff-432f-bff2-c0031dcb8bba")
-	)
-	(no_connect
-		(at 52.07 182.88)
-		(uuid "47078f46-7b27-4737-b476-d91a33ff94e8")
 	)
 	(no_connect
 		(at 52.07 195.58)
@@ -14008,12 +13739,12 @@
 		(uuid "50829d5e-311a-4fe3-9c02-dfeb547aeaa9")
 	)
 	(no_connect
-		(at 97.79 154.94)
-		(uuid "5428f72f-b699-4e92-a5a5-e728ba05623f")
+		(at 52.07 177.8)
+		(uuid "51a0e122-fa2f-4ef7-8f93-cff2152782ff")
 	)
 	(no_connect
-		(at 52.07 147.32)
-		(uuid "5663a041-74a0-4749-8fe6-cdfc4f284c96")
+		(at 97.79 154.94)
+		(uuid "5428f72f-b699-4e92-a5a5-e728ba05623f")
 	)
 	(no_connect
 		(at 76.2 38.1)
@@ -14024,16 +13755,16 @@
 		(uuid "611fd8de-5e68-44da-bdfe-63158c0f4464")
 	)
 	(no_connect
-		(at 97.79 218.44)
-		(uuid "64bdc1c0-f78e-4407-9fa8-b08880a6488a")
-	)
-	(no_connect
 		(at 186.69 101.6)
 		(uuid "659c74ed-666d-4ca6-aa42-1d6c8dc28afd")
 	)
 	(no_connect
 		(at 97.79 190.5)
 		(uuid "66a38385-6960-42ff-9701-8558754646ac")
+	)
+	(no_connect
+		(at 52.07 208.28)
+		(uuid "66cb7f45-b52f-41f6-b373-87f7f7ae9257")
 	)
 	(no_connect
 		(at 97.79 170.18)
@@ -14044,16 +13775,12 @@
 		(uuid "757e65b4-ddc5-4c7b-8b64-be5b4e7a8199")
 	)
 	(no_connect
+		(at 52.07 220.98)
+		(uuid "783602f5-c423-44c1-baec-480da6c2ba90")
+	)
+	(no_connect
 		(at 52.07 200.66)
 		(uuid "79e408e7-4673-4122-a553-87eaf697cff9")
-	)
-	(no_connect
-		(at 52.07 172.72)
-		(uuid "7a77a2d5-777c-42b6-9159-f0785bb59913")
-	)
-	(no_connect
-		(at 97.79 243.84)
-		(uuid "7c3eafaf-de4f-470b-87cc-4eb8d96d5584")
 	)
 	(no_connect
 		(at 97.79 144.78)
@@ -14064,12 +13791,20 @@
 		(uuid "89551f94-5b5d-4ca1-9519-69586d0a05c2")
 	)
 	(no_connect
+		(at 52.07 165.1)
+		(uuid "89ece5de-8ce8-40f3-9d73-27f2680227bc")
+	)
+	(no_connect
+		(at 52.07 172.72)
+		(uuid "92cd51f4-6cc4-4048-b386-f64566dbe314")
+	)
+	(no_connect
 		(at 114.3 30.48)
 		(uuid "9eb30661-1097-4064-bb60-d05c712a4722")
 	)
 	(no_connect
-		(at 52.07 167.64)
-		(uuid "9f49aa10-8f69-465b-885d-53e77695ee9c")
+		(at 97.79 142.24)
+		(uuid "9f515a01-cdae-4968-877b-8c1eb18ce725")
 	)
 	(no_connect
 		(at 152.4 43.18)
@@ -14084,12 +13819,16 @@
 		(uuid "9fc89856-cd31-4b27-8bb0-b7bf919a6a7e")
 	)
 	(no_connect
+		(at 52.07 210.82)
+		(uuid "a9a138e9-3074-42bb-9fc1-c70f9adc1102")
+	)
+	(no_connect
 		(at 76.2 55.88)
 		(uuid "ab9b0ab3-c063-492c-b609-f5650c321ffe")
 	)
 	(no_connect
-		(at 52.07 180.34)
-		(uuid "af89feb0-2ded-4adf-992b-439d07334dbb")
+		(at 52.07 205.74)
+		(uuid "ac68b90d-85b0-47be-a84d-9761a7bf92d8")
 	)
 	(no_connect
 		(at 76.2 43.18)
@@ -14100,16 +13839,12 @@
 		(uuid "bdc7120d-28a6-4d04-88b0-6c73e7f8b21b")
 	)
 	(no_connect
-		(at 52.07 149.86)
-		(uuid "c262ef58-0cf7-48a9-9fbd-bdcf96f96e97")
+		(at 52.07 223.52)
+		(uuid "c33984b4-f909-463b-8c27-e42fb4684566")
 	)
 	(no_connect
 		(at 97.79 160.02)
 		(uuid "c6055f76-b59d-4ff0-b3ae-2ef6291e4f84")
-	)
-	(no_connect
-		(at 97.79 121.92)
-		(uuid "c7b43c51-242e-40ae-8be7-ab84770f9d0d")
 	)
 	(no_connect
 		(at 97.79 193.04)
@@ -14120,8 +13855,20 @@
 		(uuid "cb13f56c-efe6-457c-ab5a-f66ff28b03f0")
 	)
 	(no_connect
+		(at 52.07 147.32)
+		(uuid "cc37350b-fc42-49c3-9192-a070905af791")
+	)
+	(no_connect
 		(at 97.79 157.48)
 		(uuid "cc4d27a5-9403-4f39-bba7-a2fa82cdbae7")
+	)
+	(no_connect
+		(at 52.07 215.9)
+		(uuid "ce3af3b7-1507-4994-9786-1e3c0a91ff66")
+	)
+	(no_connect
+		(at 52.07 213.36)
+		(uuid "d4d3fe21-0dcb-4769-ae22-a2dbbd3ab6de")
 	)
 	(no_connect
 		(at 99.06 30.48)
@@ -14132,16 +13879,24 @@
 		(uuid "d9b0c943-869c-49b0-bedc-5c90d5e3c944")
 	)
 	(no_connect
+		(at 52.07 170.18)
+		(uuid "dcece0a6-6214-4d85-9c60-cabb61333c78")
+	)
+	(no_connect
 		(at 152.4 66.04)
 		(uuid "df8cec46-6fff-4eb9-973c-a77a51a9748c")
 	)
 	(no_connect
-		(at 97.79 226.06)
-		(uuid "e3fb79ec-913d-47a6-ad5d-4d5ec3b369e7")
+		(at 52.07 162.56)
+		(uuid "e199a90b-699b-4518-902f-2c506eebba90")
 	)
 	(no_connect
-		(at 52.07 152.4)
-		(uuid "e49570f5-bb1a-4b49-9e2d-3e1e1ee85a48")
+		(at 52.07 203.2)
+		(uuid "e1bef375-4e6f-45b6-97cf-8f19faf62bbb")
+	)
+	(no_connect
+		(at 97.79 226.06)
+		(uuid "e3fb79ec-913d-47a6-ad5d-4d5ec3b369e7")
 	)
 	(no_connect
 		(at 152.4 68.58)
@@ -14152,12 +13907,12 @@
 		(uuid "e756db97-2a1c-412b-97c2-12a990920c51")
 	)
 	(no_connect
-		(at 97.79 172.72)
-		(uuid "e8b7ecc1-1b2a-4198-9996-af0aaf006c0b")
+		(at 52.07 180.34)
+		(uuid "e80d7bdc-f005-4feb-bd29-2d7d9a7a47a0")
 	)
 	(no_connect
-		(at 52.07 175.26)
-		(uuid "e9f3da9e-dbeb-412f-8dd6-980a230c41fe")
+		(at 97.79 172.72)
+		(uuid "e8b7ecc1-1b2a-4198-9996-af0aaf006c0b")
 	)
 	(no_connect
 		(at 52.07 226.06)
@@ -14166,6 +13921,14 @@
 	(no_connect
 		(at 152.4 71.12)
 		(uuid "ef7c3ae4-02cd-482a-9ae7-b465c332dd7b")
+	)
+	(no_connect
+		(at 52.07 144.78)
+		(uuid "f3a913a1-2098-417c-b86c-7cbb89e8272c")
+	)
+	(no_connect
+		(at 52.07 218.44)
+		(uuid "f8c98e4d-82c3-4716-b368-2a66370310bd")
 	)
 	(no_connect
 		(at 76.2 40.64)
@@ -14493,16 +14256,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 60.96) (xy 264.16 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33f81edd-3537-4700-b8f7-6312563980f8")
-	)
-	(wire
-		(pts
 			(xy 229.87 222.25) (xy 228.6 222.25)
 		)
 		(stroke
@@ -14750,16 +14503,6 @@
 			(type default)
 		)
 		(uuid "56b2af0a-7936-4d59-ba02-ba46103cbdda")
-	)
-	(wire
-		(pts
-			(xy 264.16 71.12) (xy 269.24 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58bc1490-ee7a-4822-9696-c3928c18d059")
 	)
 	(wire
 		(pts
@@ -15373,16 +15116,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 71.12) (xy 264.16 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2719cbe-0695-42b7-a103-ca0112941800")
-	)
-	(wire
-		(pts
 			(xy 43.18 129.54) (xy 52.07 129.54)
 		)
 		(stroke
@@ -15593,7 +15326,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 144.78) (xy 43.18 129.54)
+			(xy 43.18 128.27) (xy 43.18 129.54)
 		)
 		(stroke
 			(width 0)
@@ -16051,7 +15784,7 @@
 		)
 		(uuid "0e8c362d-25a8-4013-a2e8-c06112deadc8")
 	)
-	(label "SPI1_SCK"
+	(label "SPI2_SCK"
 		(at 152.4 63.5 0)
 		(effects
 			(font
@@ -16071,7 +15804,7 @@
 		)
 		(uuid "10b76298-ddc9-4d71-b40a-1bfdba741e9a")
 	)
-	(label "SPI2_MISO"
+	(label "SPI1_MISO"
 		(at 246.38 27.94 90)
 		(effects
 			(font
@@ -16121,6 +15854,16 @@
 		)
 		(uuid "1ea80a11-7f28-4b32-bdb8-b8181804427f")
 	)
+	(label "BTN_PLAY"
+		(at 97.79 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23b47425-7146-4504-a54c-abd7d7b43221")
+	)
 	(label "BTN_TRACK"
 		(at 213.36 66.04 180)
 		(effects
@@ -16130,6 +15873,16 @@
 			(justify right bottom)
 		)
 		(uuid "262f97f3-438d-4c19-a796-d554e11b7db7")
+	)
+	(label "BTN_UP"
+		(at 97.79 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2724522f-1fa8-4eb0-ad25-8facf0b4c96b")
 	)
 	(label "BTN_UP"
 		(at 224.79 54.61 180)
@@ -16161,26 +15914,6 @@
 		)
 		(uuid "347f7dc7-b1dc-4107-a33d-4a8a7962cd54")
 	)
-	(label "STM6601_NINT"
-		(at 52.07 165.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "35eae847-331a-4520-aabc-6040c3cbc5ef")
-	)
-	(label "TIM1_CH1"
-		(at 97.79 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3711633f-701a-41d8-a972-39e18d90d17c")
-	)
 	(label "NRST"
 		(at 251.46 190.5 180)
 		(effects
@@ -16191,35 +15924,35 @@
 		)
 		(uuid "379ef8b3-43ea-496b-8fc1-5f529ee958b2")
 	)
-	(label "NVCC_LO"
-		(at 52.07 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3891f16b-a5c7-499a-bb60-5ace9d3f6955")
-	)
-	(label "TFT_DC"
-		(at 97.79 213.36 0)
+	(label "XDCS"
+		(at 97.79 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3b384610-7cec-444e-a7a4-b5e9bfb1cd50")
+		(uuid "3e3735ad-2a98-4b5d-a570-f000f7901dee")
 	)
-	(label "JOY_X"
-		(at 264.16 58.42 180)
+	(label "BTN_SEEK"
+		(at 97.79 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ee0c74d-62b4-4350-a849-4fa1145c5cfc")
+	)
+	(label "NVCC_LO"
+		(at 52.07 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3fbb8872-fd01-43c3-b04d-86291ba96d60")
+		(uuid "4530db6f-89e2-439e-a3cb-491c21e16de6")
 	)
 	(label "SDMMC1_D0"
 		(at 97.79 228.6 0)
@@ -16251,16 +15984,6 @@
 		)
 		(uuid "48bdab52-847c-4bf3-9b90-b1f1560ea74a")
 	)
-	(label "JOY_X"
-		(at 97.79 208.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "48cae9c8-400e-431e-a829-f1850edabd30")
-	)
 	(label "BOOT0"
 		(at 52.07 139.7 180)
 		(effects
@@ -16291,16 +16014,6 @@
 		)
 		(uuid "4d67fe05-ab70-47ba-a99a-dd55a8d4edca")
 	)
-	(label "BTN_PLAY"
-		(at 52.07 213.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "512046f0-7e46-4a56-b4e4-b75790e8f615")
-	)
 	(label "SDMMC1_D1"
 		(at 158.75 251.46 180)
 		(effects
@@ -16321,25 +16034,15 @@
 		)
 		(uuid "5595d24d-d360-49e4-b517-dd188df2d380")
 	)
-	(label "XDCS"
-		(at 97.79 129.54 0)
+	(label "TFT_SD_CS"
+		(at 97.79 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "58c6a6c2-0a35-4c24-8c88-2b014eb75ac3")
-	)
-	(label "BTN_DN"
-		(at 52.07 218.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5b43b322-ab92-4c8f-92a6-5981283129dc")
+		(uuid "56bb4b45-39b2-48d3-a9a8-60908ee7dc5f")
 	)
 	(label "SDMMC1_D2"
 		(at 97.79 233.68 0)
@@ -16401,6 +16104,16 @@
 		)
 		(uuid "68e288e2-69db-480e-9a7d-ff8f0638ad22")
 	)
+	(label "BTN_DN"
+		(at 97.79 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f106ff8-c2e0-41db-9718-2355ed2b32cc")
+	)
 	(label "I2C1_SCL"
 		(at 194.31 143.51 0)
 		(effects
@@ -16410,6 +16123,16 @@
 			(justify left bottom)
 		)
 		(uuid "715453c8-0f0f-485f-a3d5-953809b961cf")
+	)
+	(label "STM6601_NINT"
+		(at 52.07 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7454efc3-1fb8-48a7-bd20-dfca9f929388")
 	)
 	(label "TFT_DC"
 		(at 256.54 27.94 90)
@@ -16431,6 +16154,16 @@
 		)
 		(uuid "7a0c18cf-2ef9-4941-a5c1-b1f6cdcd9b02")
 	)
+	(label "LED"
+		(at 52.07 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f0abfe8-114b-4f58-a55a-f2c4c89c4376")
+	)
 	(label "USB_D-"
 		(at 262.89 100.33 0)
 		(effects
@@ -16451,15 +16184,15 @@
 		)
 		(uuid "80ae5735-4fe5-44f1-84cc-447a8213d1f6")
 	)
-	(label "BTN_UP"
-		(at 52.07 215.9 180)
+	(label "TFT_DC"
+		(at 97.79 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "81400c2c-96c8-40fb-b6be-7db1b1270051")
+		(uuid "8199489c-1696-4a85-838a-22e9f8e5a3ef")
 	)
 	(label "SDMMC1_D3"
 		(at 97.79 236.22 0)
@@ -16471,7 +16204,7 @@
 		)
 		(uuid "82b1f2ef-713a-4b8c-9c02-4c0d538f4b6d")
 	)
-	(label "SPI2_SCK"
+	(label "SPI1_SCK"
 		(at 243.84 27.94 90)
 		(effects
 			(font
@@ -16501,7 +16234,7 @@
 		)
 		(uuid "88dd4477-ccf2-4761-be20-612150d34e17")
 	)
-	(label "SPI1_NSS"
+	(label "SPI2_NSS"
 		(at 127 83.82 270)
 		(effects
 			(font
@@ -16511,7 +16244,7 @@
 		)
 		(uuid "8ec487f9-5268-49fc-a3e1-0ce59737e4d8")
 	)
-	(label "SPI2_NSS"
+	(label "SPI1_NSS"
 		(at 251.46 27.94 90)
 		(effects
 			(font
@@ -16540,6 +16273,16 @@
 			(justify right bottom)
 		)
 		(uuid "916d03b2-4c68-4506-abbe-93f9bfd68cba")
+	)
+	(label "BTN_TRACK"
+		(at 97.79 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9852082f-d4df-4371-9919-98e68f4e7e23")
 	)
 	(label "SPI2_SCK"
 		(at 97.79 198.12 0)
@@ -16571,16 +16314,6 @@
 		)
 		(uuid "9d98a655-5914-46f6-b195-0813232decac")
 	)
-	(label "BTN_OPT"
-		(at 52.07 208.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a3100d46-a3e3-4ff5-a05e-1b9b8f5d0675")
-	)
 	(label "SPI2_NSS"
 		(at 97.79 195.58 0)
 		(effects
@@ -16611,7 +16344,7 @@
 		)
 		(uuid "acd82183-f8e3-4ddc-9155-5726c91f485b")
 	)
-	(label "SPI1_MOSI"
+	(label "SPI2_MOSI"
 		(at 152.4 60.96 0)
 		(effects
 			(font
@@ -16620,16 +16353,6 @@
 			(justify left bottom)
 		)
 		(uuid "b03d465f-5682-49b3-be22-12d2c1dc96af")
-	)
-	(label "JOY_Y"
-		(at 264.16 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b178a555-fff2-435b-a030-d4966d5895af")
 	)
 	(label "XDCS"
 		(at 101.6 83.82 270)
@@ -16641,7 +16364,7 @@
 		)
 		(uuid "b55ecf4c-0b50-4c2d-a056-4d7863710151")
 	)
-	(label "SPI2_MOSI"
+	(label "SPI1_MOSI"
 		(at 248.92 27.94 90)
 		(effects
 			(font
@@ -16660,6 +16383,16 @@
 			(justify right bottom)
 		)
 		(uuid "b9369755-779e-4863-a58c-850f8314d9d6")
+	)
+	(label "BTN_VUP"
+		(at 52.07 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c050b7d5-5249-42ee-b97e-e5925ba6e91f")
 	)
 	(label "NRST"
 		(at 52.07 121.92 180)
@@ -16681,16 +16414,6 @@
 		)
 		(uuid "c8d478b6-e5e9-45c4-9149-8d2169afabbc")
 	)
-	(label "BTN_TRACK"
-		(at 52.07 220.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c969d1f9-9625-40e2-a5b1-373b23245e83")
-	)
 	(label "I2C1_SDA"
 		(at 194.31 140.97 0)
 		(effects
@@ -16711,15 +16434,15 @@
 		)
 		(uuid "cf66c97b-7f5d-454a-a23c-ce334141bb84")
 	)
-	(label "BTN_SEEK"
-		(at 52.07 223.52 180)
+	(label "BTN_VDN"
+		(at 97.79 241.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "cfecc54c-3df2-4fe3-81b9-81908efb5d7c")
+		(uuid "d0875b63-d74f-4fa3-8ad7-fabdb8d2dba6")
 	)
 	(label "GPIO0"
 		(at 53.34 81.28 180)
@@ -16731,15 +16454,15 @@
 		)
 		(uuid "d6192bd5-2dae-4a21-852a-1f7a64e4b735")
 	)
-	(label "TFT_SD_CS"
-		(at 97.79 215.9 0)
+	(label "BTN_SEL"
+		(at 97.79 246.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "de8319ef-e32f-4710-81f2-cad293846134")
+		(uuid "e1d09d46-7d4b-44f2-a08b-332e9595d71f")
 	)
 	(label "LED"
 		(at 271.78 212.09 90)
@@ -16751,6 +16474,16 @@
 		)
 		(uuid "e299673a-b71f-45f7-ba7e-f36cd819937e")
 	)
+	(label "NPB_OUT"
+		(at 52.07 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e623c15b-262a-48c0-bb4a-0e7d20847b14")
+	)
 	(label "SDMMC1_D3"
 		(at 158.75 246.38 180)
 		(effects
@@ -16761,17 +16494,7 @@
 		)
 		(uuid "e6b3c9cb-d52b-460d-9ca4-4dbf12c8a234")
 	)
-	(label "BTN_VUP"
-		(at 52.07 203.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e9f1ff9d-d560-4fe4-a6bd-11956b00e166")
-	)
-	(label "SPI1_MISO"
+	(label "SPI2_MISO"
 		(at 152.4 58.42 0)
 		(effects
 			(font
@@ -16780,16 +16503,6 @@
 			(justify left bottom)
 		)
 		(uuid "ebedc236-ccaa-4c69-9ffe-055a087a2b92")
-	)
-	(label "LED"
-		(at 52.07 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ecd52b2d-c3e4-49a8-9c53-d93177d1a736")
 	)
 	(label "OTG_FS_DP"
 		(at 97.79 152.4 0)
@@ -16821,15 +16534,15 @@
 		)
 		(uuid "ef8f78fd-18c7-4aed-889e-0077ec87c240")
 	)
-	(label "JOY_Y"
-		(at 97.79 210.82 0)
+	(label "TIM1_CH1"
+		(at 52.07 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "f080c560-44dc-4fcf-8971-36d3e568b32d")
+		(uuid "f2996459-a870-4a3a-8ddd-8803440179bf")
 	)
 	(label "GPIO1"
 		(at 53.34 86.36 180)
@@ -16850,16 +16563,6 @@
 			(justify right bottom)
 		)
 		(uuid "f30719ec-f380-46a5-9d67-f19116ab1eda")
-	)
-	(label "NPB_OUT"
-		(at 52.07 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f352eb01-8e84-4e99-965b-40d8595aa123")
 	)
 	(label "LDO_EN"
 		(at 173.99 219.71 180)
@@ -16921,25 +16624,15 @@
 		)
 		(uuid "fb01a4f3-d67e-4c1f-a444-5000466de2eb")
 	)
-	(label "BTN_SEL"
-		(at 52.07 210.82 180)
+	(label "BTN_OPT"
+		(at 97.79 243.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "fe0a8ecc-7a57-4560-a621-cfad88a2bceb")
-	)
-	(label "BTN_VDN"
-		(at 52.07 205.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fe45554d-f820-4ce0-b106-2aafa3b4b84b")
+		(uuid "fe022ed9-587e-466d-87f0-24ca7a8c48f5")
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
@@ -17032,7 +16725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-LED:LED_0402_1005Metric_Orange"
 			(at 260.35 149.86 0)
 			(effects
 				(font
@@ -17102,7 +16795,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 179.07 160.02 0)
 			(effects
 				(font
@@ -17199,7 +16892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 115.57 125.73 0)
 			(effects
 				(font
@@ -17641,7 +17334,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 151.13 120.65 0)
 			(effects
 				(font
@@ -18011,7 +17704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
 			(at 39.37 141.732 0)
 			(effects
 				(font
@@ -18090,7 +17783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
 			(at 264.922 111.76 0)
 			(effects
 				(font
@@ -18337,7 +18030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
 			(at 151.638 228.6 0)
 			(effects
 				(font
@@ -18481,7 +18174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 170.18 193.548 90)
 			(effects
 				(font
@@ -18551,7 +18244,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
 			(at 267.462 218.44 0)
 			(effects
 				(font
@@ -18629,7 +18322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
 			(at 240.538 144.78 0)
 			(effects
 				(font
@@ -19556,7 +19249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
 			(at 221.742 196.85 0)
 			(effects
 				(font
@@ -20031,6 +19724,7 @@
 		)
 		(pin "40"
 			(uuid "0a4dc8a2-e95e-4431-bd2c-af00fe54cded")
+			(alternate "TIM1_CH1")
 		)
 		(pin "83"
 			(uuid "662643ef-7b6d-4c02-9323-30f1efccb07b")
@@ -20115,7 +19809,6 @@
 		)
 		(pin "67"
 			(uuid "7e16d61a-d526-4f29-84eb-e1790b4f5488")
-			(alternate "TIM1_CH1")
 		)
 		(pin "14"
 			(uuid "131ccac4-21d4-4feb-ba47-57e1e97c46c3")
@@ -20289,7 +19982,6 @@
 		)
 		(pin "16"
 			(uuid "2a8222d9-1442-4781-9570-b66ddd321f12")
-			(alternate "ADC1_IN2")
 		)
 		(pin "89"
 			(uuid "61484fcf-68ab-489d-861e-6b77caae9425")
@@ -20299,7 +19991,6 @@
 		)
 		(pin "15"
 			(uuid "ad34212f-a1f5-41a9-849b-70de48aeae71")
-			(alternate "ADC1_IN1")
 		)
 		(pin "17"
 			(uuid "9542bad5-499d-4b7b-9206-2828a6fe4947")
@@ -20389,7 +20080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 209.55 182.88 0)
 			(effects
 				(font
@@ -21291,7 +20982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 109.22 39.37 0)
 			(effects
 				(font
@@ -21474,7 +21165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 214.63 234.95 0)
 			(effects
 				(font
@@ -21569,7 +21260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 35.56 138.43 0)
 			(effects
 				(font
@@ -21877,7 +21568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
 			(at 260.858 144.78 0)
 			(effects
 				(font
@@ -21954,7 +21645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
 			(at 55.88 82.042 0)
 			(effects
 				(font
@@ -22098,7 +21789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
 			(at 274.32 95.758 0)
 			(effects
 				(font
@@ -22243,7 +21934,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 165.1 99.06 0)
 			(effects
 				(font
@@ -22340,7 +22031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
 			(at 252.222 187.96 0)
 			(effects
 				(font
@@ -22719,7 +22410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 168.91 182.88 0)
 			(effects
 				(font
@@ -22882,7 +22573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 219.71 182.88 0)
 			(effects
 				(font
@@ -22978,7 +22669,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 67.31 120.65 0)
 			(effects
 				(font
@@ -23294,7 +22985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 220.98 208.28 0)
 			(effects
 				(font
@@ -23457,7 +23148,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 110.49 125.73 0)
 			(effects
 				(font
@@ -23706,7 +23397,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 255.27 233.68 0)
 			(effects
 				(font
@@ -23938,7 +23629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-LED:LED_0402_1005Metric_Green"
 			(at 271.78 224.79 0)
 			(effects
 				(font
@@ -24085,7 +23776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 203.2 234.95 0)
 			(effects
 				(font
@@ -24252,7 +23943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 261.62 208.28 0)
 			(effects
 				(font
@@ -24415,7 +24106,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 186.69 128.27 0)
 			(effects
 				(font
@@ -24552,73 +24243,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:3.3V_A")
-		(at 254 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8cae9b63-722c-4964-a07d-92cc44739cd5")
-		(property "Reference" "#PWR097"
-			(at 254 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V_A"
-			(at 254 57.15 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V_A\""
-			(at 254 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19c11d74-fa67-45e2-b836-9ca87fb325b4")
-		)
-		(instances
-			(project "MY-MP3"
-				(path "/8df9da0f-6cdf-4713-b261-6068f37d15bf"
-					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:FerriteBead_Small")
 		(at 152.4 191.77 270)
 		(unit 1)
@@ -24643,7 +24267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 152.4 189.992 90)
 			(effects
 				(font
@@ -24711,7 +24335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
 			(at 113.03 107.188 0)
 			(effects
 				(font
@@ -24857,7 +24481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 240.03 182.88 0)
 			(effects
 				(font
@@ -25087,7 +24711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 229.87 182.88 0)
 			(effects
 				(font
@@ -25230,72 +24854,6 @@
 			(project ""
 				(path "/8df9da0f-6cdf-4713-b261-6068f37d15bf"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 269.24 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9db23499-9f2d-4c9b-8ef2-68bc47943b46")
-		(property "Reference" "#PWR098"
-			(at 269.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 269.24 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 269.24 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88080b43-5cfa-4d5c-8c92-1ad53835c8b7")
-		)
-		(instances
-			(project "MY-MP3"
-				(path "/8df9da0f-6cdf-4713-b261-6068f37d15bf"
-					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -25529,7 +25087,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
 			(at 218.948 106.68 0)
 			(effects
 				(font
@@ -25714,85 +25272,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
-		(at 269.24 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac99ce66-a113-4192-bc14-ae036296aa23")
-		(property "Reference" "J9"
-			(at 271.78 61.3155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04_FPC"
-			(at 271.78 63.8555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11004_1x04-1MP_P0.5mm_Horizontal"
-			(at 269.24 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 269.24 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3a7dafe9-3460-4ad6-859a-210bee6bbad7")
-		)
-		(pin "4"
-			(uuid "1f367f44-e934-4b4b-8e98-4e902e08411d")
-		)
-		(pin "1"
-			(uuid "b7ee6f31-13df-403e-b1e1-50d965ab283c")
-		)
-		(pin "MP"
-			(uuid "3f190322-cdf9-4c34-9125-c8572b27e40f")
-		)
-		(pin "2"
-			(uuid "b6668d0e-439d-4359-8787-cb5607a0704c")
-		)
-		(instances
-			(project ""
-				(path "/8df9da0f-6cdf-4713-b261-6068f37d15bf"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 213.36 74.93 0)
 		(unit 1)
@@ -25953,7 +25432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 189.23 182.88 0)
 			(effects
 				(font
@@ -26249,7 +25728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
 			(at 55.88 85.598 0)
 			(effects
 				(font
@@ -26395,7 +25874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 29.21 72.39 0)
 			(effects
 				(font
@@ -26981,7 +26460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 193.04 234.95 0)
 			(effects
 				(font
@@ -27411,7 +26890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-LED:LED_0402_1005Metric_Red"
 			(at 204.47 109.22 0)
 			(effects
 				(font
@@ -27481,7 +26960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 160.02 240.03 0)
 			(effects
 				(font
@@ -28090,7 +27569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
 			(at 269.748 111.76 0)
 			(effects
 				(font
@@ -28233,7 +27712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
 			(at 41.91 41.402 0)
 			(effects
 				(font
@@ -28845,7 +28324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 35.56 133.35 0)
 			(effects
 				(font
@@ -29141,7 +28620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 273.05 151.13 0)
 			(effects
 				(font
@@ -29455,7 +28934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
 			(at 41.91 37.338 0)
 			(effects
 				(font
@@ -29601,7 +29080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 199.39 182.88 0)
 			(effects
 				(font
@@ -29739,16 +29218,16 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 43.18 144.78 0)
+		(at 43.18 128.27 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ecd04529-1cea-46e9-aa29-2adc4c5c44d7")
 		(property "Reference" "#PWR080"
-			(at 43.18 151.13 0)
+			(at 43.18 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29757,15 +29236,16 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 43.18 149.86 0)
+			(at 40.64 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 144.78 0)
+			(at 43.18 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29774,7 +29254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 144.78 0)
+			(at 43.18 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29783,7 +29263,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 43.18 144.78 0)
+			(at 43.18 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29831,7 +29311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 35.56 72.39 0)
 			(effects
 				(font
@@ -30501,7 +29981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 148.59 182.88 0)
 			(effects
 				(font
@@ -30729,7 +30209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
 			(at 274.32 102.362 0)
 			(effects
 				(font
@@ -31076,7 +30556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric_Pad0.74x0.62mm"
 			(at 158.75 182.88 0)
 			(effects
 				(font

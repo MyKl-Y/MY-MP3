@@ -52,7 +52,16 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "invalid_outline|148550000|72000000|88269f85-a40b-4b2b-b312-e1983f85b2c3|e0fc1f14-175d-46af-b475-51a452fa4cd5",
+          ""
+        ],
+        [
+          "invalid_outline|157250000|72000000|36046275-a325-4ffe-a65b-a4734c470ab5|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
